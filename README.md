@@ -57,17 +57,17 @@ def text_to_speech(text, lang):
 
 Main Workflow
 def main():
-    # Speech-to-Text
-    original_text = recognize_speech()
+  # Speech-to-Text
+  original_text = recognize_speech()
     
-    # Language Selection
-    target_lang = input("Enter target language code: ")
+  # Language Selection
+  target_lang = input("Enter target language code: ")
     
-    # Text Translation
-    translated_text = translate_text(original_text, target_lang)
+  # Text Translation
+  translated_text = translate_text(original_text, target_lang)
     
-    # Audio Output
-    text_to_speech(translated_text, target_lang)
+  # Audio Output
+  text_to_speech(translated_text, target_lang)
 
 ⚙️ Technical Highlights
   -Audio Handling:
