@@ -21,12 +21,6 @@
 - 🛠 Error handling for speech recognition failures
 - 📦 Modular architecture for easy maintenance
 
-## 🛠 Installation
-```bash
-
-
-
-
 🚀 Usage
   -Run the script: python3 speech_rec.py
 
@@ -86,6 +80,8 @@ def main():
   -Real-time Processing:
     with sr.Microphone() as source:
     audio = r.listen(source)  # Continuous audio stream capture
+
+
 
 
 
