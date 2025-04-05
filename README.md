@@ -42,7 +42,7 @@ Example language codes:
 
   -German: 'de' | Japanese: 'ja'
 
-📁 Code Structure
+##📁 Code Structure
 Core Components
 def recognize_speech():
   -Captures audio input and converts to text using Google Speech Recognition
